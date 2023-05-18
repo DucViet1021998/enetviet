@@ -1,0 +1,90 @@
+.card-container {
+    margin-top: 20px;
+    margin-left: 29px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: var(--text-color);
+    padding: 7px 0 9px 0;
+}
+.date {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: right;
+    color: var(--text-color);
+    padding: 8px 0 8px 0;
+}
+
+.tittle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -28px;
+}
+
+.click-heart {
+    width: 100px;
+    height: 32px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+}
+.comment {
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+}
+.seen {
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+}
